@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,600,700&display=swap');
+
+/* 14px  1vw
+   30px  2vw
+   40px  2.9vw
+   80px  5.8vw
+   90px  6.2vw
+   130px 7.7vw
+   200px 15vw
+   234px 17vw
+   256px 19vw
+   293px 24vw
+   362px 27vw*/
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.14vw;
+}
+/*cabecalho*/
+.cabecalho{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Asap', sans-serif;
+    justify-content: center;
+    width: 100%;
+}
+.cabecalho nav{
+    padding: 1% 10%;
+    width: 100%;
+}
+.cabecalho .navbar .navbar-collapse ul li{
+    margin-left: 65px;
+}
+
+.menu{
+    font-family: 'Asap', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.14vw;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1B7DD8;
+}
+.navbar-light .navbar-brand{
+    width: 18vw;
+}
+
+.navbar-brand img{
+    width: 18vw;
+}
+.body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+/*imagem principal*/
+.cover{
+    width: 100%;
+}
+
+/*row sobre nós*/
+.row_sobre-nos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 80px 8px;
+    width: 100%;
+}
+/*sobre nos*/
+p{
+}
+
+.titulo-sobre-nos{
+    font-family: 'Asap', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #FF3369;
+    font-size: 2.3vw;
+    margin-bottom: 18px;
+}
+
+.sobre-nos{
+}
+
+.sobre-nos p{
+    font-size: 0.9vw;
+}
+
+.sobre-nos p strong{
+    font-size: 1.14vw;
+}
+
+.btn.botao-ajuda{
+    background-color: #1B7DD8;
+    border: 1px solid #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-family: 'Asap', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    padding: 10px 24px;
+}
+
+/*fazemos isso e muito mais*/
+.body .row_sobre-nos .fazemos-isso .fazemos-isso__title{
+    font-family: 'Asap', sans-serif;
+    font-size: 1.4vw;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.24em;
+    text-transform: uppercase; 
+    color: #414141;
+}
+
+.fazemos-isso{
+}
+
+.body .row_sobre-nos .fazemos-isso .caixas{
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+
+.body .row_sobre-nos .fazemos-isso .caixas .caixas__card{
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    margin-right: 32px;
+    padding: 32px;
+}
+
+.body .row_sobre-nos .fazemos-isso .caixas .caixas__card img{
+    height: auto;
+    width: 12vw;
+}
+
+.body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured{
+    align-items: center;
+    color: #FF3369;
+    display: flex;
+    font-family: 'Asap', sans-serif;
+    font-size: 4.6vw;
+    line-height: 4.7vw;
+    margin: 5% 0;
+    text-align: center;
+}
+
+.body .row_sobre-nos .fazemos-isso .caixas .caixas__card .card__featured span{
+    font-size: 2.3vw;
+    line-height: 32px;
+}
+
+.body .row_sobre-nos .fazemos-isso .caixas .caixas__card p{
+    font-size: 1.3vw;
+    line-height: 20px;
+    text-align: center;
+}
+
+.figura1{
+}
+
+/*banner rosa*/
+label{
+    font-family: 'Asap', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8vw;
+    line-height: 3.5vw;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.row-galeria{
+    background: #FF3369;
+    display: flex;
+    padding: 6.25vw 0;
+    width: 100%;
+}
+
+.quadro-branco{
+    margin: 0 2vw;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img1{
+    width: 19vw;
+    height: 19vw;
+    margin-top: 1vw;  
+    margin-left: .3vw; 
+    margin-right: .3vw;
+}
+
+.img2{
+    width: 19vw;
+    height: 19vw;
+    margin-top: 1vw;
+    margin-left: .3vw; 
+    margin-right: .3vw;
+}
+
+.img3{
+    width: 19vw;
+    height: 19vw;
+    margin-top: 1vw;
+    margin-left: .3vw; 
+    margin-right: .3vw;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.botao-flickr{
+    margin-top: 1.5rem;
+    width: 15vw;
+    height: 3.2vw;
+    background: #1B7DD8;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2vw;
+    font-family: 'Asap', sans-serif;
+    font-style: normal;
+    font-size: 1vw;
+    color: #fff;
+    line-height: 1.6vw;
+}
+
+/*como ajudar*/
+h4{
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    line-height: 3vw;
+    text-align: center;
+    letter-spacing: 0.24em;
+    color: #FF3369;
+    text-transform: uppercase;
+}
+
+.col-ajudar .titulo-ajudar{
+    color: #1B7DD8;
+    font-family: 'Asap', sans-serif;
+    font-size: 2.8vw;
+    font-weight: 600;
+    letter-spacing: 0.24em;
+    text-align: center;
+}
+
+.col-ajudar{
+}
+
+.quadros{
+    margin-top: 1.5vw;
+    width: 28vw;
+    height: 28vw;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.botao{
+    width: 17vw;
+    height: 2.9vw;
+    margin-top: 1.5vw;
+    margin-left: 5.5vw;
+    background: #1B7DD8;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2vw;
+    font-family: 'Asap', sans-serif;
+    font-size: 1vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*rodape*/
+.rodape{
+    width: 100%;
+    height: 14vw;
+    margin-top: 10vw;
+    margin-bottom: .5vw;
+    background: #0537EA;
+}
